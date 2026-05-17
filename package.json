@@ -1,6 +1,6 @@
 {
   "name": "email-render-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Catch email rendering issues before they hit the inbox. Checks CSS compatibility across Outlook, Gmail, Apple Mail, and more.",
   "main": "src/checker.js",
   "bin": {
