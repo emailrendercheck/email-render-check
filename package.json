@@ -1,0 +1,60 @@
+{
+  "name": "email-check",
+  "version": "1.0.0",
+  "description": "Catch email rendering issues before they hit the inbox. Checks CSS compatibility across Outlook, Gmail, Apple Mail, and more.",
+  "main": "src/checker.js",
+  "bin": {
+    "email-check": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "data/email-css-support.json"
+  ],
+  "scripts": {
+    "test": "node bin/cli.js test/test-email.html --all",
+    "build-data": "node build-data.js"
+  },
+  "keywords": [
+    "email",
+    "html-email",
+    "outlook",
+    "gmail",
+    "css",
+    "compatibility",
+    "litmus",
+    "email-testing",
+    "mjml",
+    "react-email",
+    "ci-cd",
+    "email-css"
+  ],
+  "author": "Swapnil Srivastava <swapnilsrivastava26@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "gray-matter": "^4.0.0"
+  },
+  "peerDependencies": {
+    "mjml": ">=4.0.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "mjml": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@react-email/components": "^1.0.12",
+    "mjml": "^4.15.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  }
+}
