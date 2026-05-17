@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 
 const fs = require('fs');
 const path = require('path');
@@ -7,13 +6,12 @@ const { checkEmail } = require('../src/checker');
 
 const args = process.argv.slice(2);
 
-// ── HELP ──
 if (args.length === 0 || args.includes('--help') || args.includes('-h')) {
   console.log(`
 📧 Email Compatibility Checker
 
 Usage:
-  email-check <file> [options]
+  email-render-check <file> [options]
 
 Supported file types:
   .html          Plain HTML email (default)
@@ -37,11 +35,11 @@ Available clients:
   yahoo-web, samsung-android
 
 Examples:
-  email-check email.html --all
-  email-check newsletter.mjml --all
-  email-check welcome.tsx --all --fixes
-  email-check receipt.jsx --framework=jsx --all --strict
-  email-check campaign.html --clients=outlook-windows,gmail-web --fixes
+  email-render-check email.html --all
+  email-render-check newsletter.mjml --all
+  email-render-check welcome.tsx --all --fixes
+  email-render-check receipt.jsx --framework=jsx --all --strict
+  email-render-check campaign.html --clients=outlook-windows,gmail-web --fixes
 `);
   process.exit(0);
 }
@@ -50,7 +48,7 @@ Examples:
 const fileArg = args.find(a => !a.startsWith('--'));
 if (!fileArg) {
   console.error('❌ Error: No input file specified.');
-  console.error('   Run: email-check --help');
+  console.error('   Run: email-render-check --help');
   process.exit(1);
 }
 
