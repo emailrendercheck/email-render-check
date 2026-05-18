@@ -91,8 +91,9 @@ if (framework !== 'html') {
     );
     fs.writeFileSync(tempFile, compiledHTML);
 
-    console.log(`🔧 Compiled ${framework} → HTML (${(compiledHTML.length / 1024).toFixed(1)} KB)\n`);
-
+if (!jsonOutput) {
+  console.log(`🔧 Compiled ${framework} → HTML (${(compiledHTML.length / 1024).toFixed(1)} KB)\n`);
+}
     fileToCheck = tempFile;
   } catch (e) {
     console.error(`❌ Compilation failed: ${e.message}`);
@@ -111,7 +112,9 @@ if (allClients) {
 }
 
 // ── RUN CHECK ──
-console.log(`🔍 Checking ${fileArg}...\n`);
+if (!jsonOutput) {
+  console.log(`🔍 Checking ${fileArg}...\n`);
+}
 const result = checkEmail(fileToCheck, clients, { strict: strictMode });
 
 // ── CLEAN UP TEMP FILE ──
