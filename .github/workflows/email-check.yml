@@ -7,18 +7,10 @@ on:
       - '**/*.mjml'
       - '**/*.tsx'
       - '**/*.jsx'
-      - 'emails/**'
-      - 'templates/**'
-  push:
-    branches:
-      - main
-    paths:
-      - '**/*.html'
-      - '**/*.mjml'
-      - '**/*.tsx'
-      - '**/*.jsx'
-      - 'emails/**'
-      - 'templates/**'
+
+permissions:
+  contents: read
+  pull-requests: write
 
 jobs:
   email-check:
@@ -27,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Run Email Render Check
-        uses: swapnsri/email-render-check@main
+        uses: ./ # Uses the action from this repo
         with:
           all_clients: 'true'
           show_fixes: 'true'
