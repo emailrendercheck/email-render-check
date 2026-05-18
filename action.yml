@@ -167,7 +167,7 @@ runs:
         fi
 
     - name: Post PR Comment
-      if: github.event_name == 'pull_request'
+      if: github.event_name == 'pull_request' && steps.email-check.outputs.report_body != ''
       uses: marocchino/sticky-pull-request-comment@v2
       with:
         header: email-render-check
