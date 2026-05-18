@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Run Email Render Check
-        uses: swapnilsrivastava/email-render-check@main
+        uses: swapnsri/email-render-check@main
         with:
           all_clients: 'true'
           show_fixes: 'true'
