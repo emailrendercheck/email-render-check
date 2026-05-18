@@ -1,0 +1,217 @@
+name: 'Email Render Check'
+description: 'Check email HTML for rendering issues across Outlook, Gmail, Apple Mail, and more'
+author: 'Swapnil Srivastava'
+branding:
+  icon: 'mail'
+  color: 'blue'
+
+inputs:
+  files:
+    description: 'Glob pattern for email files to check'
+    required: false
+    default: '**/*.{html,mjml,tsx,jsx}'
+  
+  clients:
+    description: 'Comma-separated list of email clients to check'
+    required: false
+    default: 'outlook-windows,gmail-web,apple-mail-ios'
+  
+  all_clients:
+    description: 'Check against all 10 supported clients'
+    required: false
+    default: 'false'
+  
+  strict:
+    description: 'Show ALL warnings including minor quirks'
+    required: false
+    default: 'false'
+  
+  show_fixes:
+    description: 'Show fix suggestions for each issue'
+    required: false
+    default: 'true'
+  
+  min_score:
+    description: 'Minimum compatibility score (0-100). Check fails if score is below this.'
+    required: false
+    default: '70'
+  
+  github_token:
+    description: 'GitHub token for posting PR comments'
+    required: false
+    default: ${{ github.token }}
+
+outputs:
+  score:
+    description: 'Overall compatibility score (0-100)'
+  errors:
+    description: 'Number of rendering errors found'
+  warnings:
+    description: 'Number of rendering warnings found'
+  report:
+    description: 'JSON report of all issues found'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install email-render-check
+      shell: bash
+      run: npm install -g email-render-check
+
+    - name: Find changed email files
+      id: changed-files
+      uses: tj-actions/changed-files@v44
+      with:
+        files: ${{ inputs.files }}
+
+    - name: Check email rendering
+      id: email-check
+      shell: bash
+      run: |
+        # Exit if no email files changed
+        if [ "${{ steps.changed-files.outputs.any_changed }}" = "false" ]; then
+          echo "No email files changed. Skipping check."
+          echo "score=100" >> $GITHUB_OUTPUT
+          echo "errors=0" >> $GITHUB_OUTPUT
+          echo "warnings=0" >> $GITHUB_OUTPUT
+          exit 0
+        fi
+
+        # Build flags
+        FLAGS=""
+        
+        if [ "${{ inputs.all_clients }}" = "true" ]; then
+          FLAGS="$FLAGS --all"
+        elif [ -n "${{ inputs.clients }}" ]; then
+          FLAGS="$FLAGS --clients=${{ inputs.clients }}"
+        fi
+        
+        if [ "${{ inputs.strict }}" = "true" ]; then
+          FLAGS="$FLAGS --strict"
+        fi
+        
+        if [ "${{ inputs.show_fixes }}" = "true" ]; then
+          FLAGS="$FLAGS --fixes"
+        fi
+
+        # Run check on each changed file
+        TOTAL_ERRORS=0
+        TOTAL_WARNINGS=0
+        LOWEST_SCORE=100
+        REPORT=""
+        HAS_FAILURE=false
+
+        for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          # Only check files matching the pattern
+          if echo "$file" | grep -qE '\.(html|mjml|tsx|jsx)$'; then
+            echo "🔍 Checking: $file"
+            
+            # Run email-render-check and capture JSON output
+            RESULT=$(email-render-check "$file" $FLAGS --json 2>&1)
+            EXIT_CODE=$?
+            
+            if [ $EXIT_CODE -ne 0 ]; then
+              echo "⚠️  Error checking $file"
+              continue
+            fi
+            
+            # Extract score, errors, warnings from JSON
+            SCORE=$(echo "$RESULT" | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{try{const r=JSON.parse(d);console.log(r.summary?.totalProperties?Math.round(((r.summary.totalProperties*r.summary.totalClients-(r.summary.totalErrors||0)-(r.summary.totalWarnings||0))/(r.summary.totalProperties*r.summary.totalClients))*100):100)}catch(e){console.log(100)}})")
+            ERRORS=$(echo "$RESULT" | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{try{console.log(JSON.parse(d).summary?.totalErrors||0)}catch(e){console.log(0)}})")
+            WARNINGS=$(echo "$RESULT" | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{try{console.log(JSON.parse(d).summary?.totalWarnings||0)}catch(e){console.log(0)}})")
+            
+            TOTAL_ERRORS=$((TOTAL_ERRORS + ERRORS))
+            TOTAL_WARNINGS=$((TOTAL_WARNINGS + WARNINGS))
+            
+            if [ "$SCORE" -lt "$LOWEST_SCORE" ]; then
+              LOWEST_SCORE=$SCORE
+            fi
+            
+            # Append to report
+            REPORT="${REPORT}\n### 📧 ${file}\n"
+            REPORT="${REPORT}**Score:** ${SCORE}/100 | **Errors:** ${ERRORS} | **Warnings:** ${WARNINGS}\n\n"
+            
+            # Extract failed properties for the PR comment
+            echo "$RESULT" | node -e "
+              let d='';
+              process.stdin.on('data',c=>d+=c);
+              process.stdin.on('end',()=>{
+                try {
+                  const r = JSON.parse(d);
+                  const failed = r.propertyResults?.filter(p=>p.hasIssues) || [];
+                  for (const prop of failed) {
+                    console.log('📌 **' + prop.property + '**');
+                    for (const [client, result] of Object.entries(prop.results||{})) {
+                      if (result.status !== 'pass') {
+                        const icon = result.status === 'fail' ? '❌' : '⚠️';
+                        console.log('  ' + icon + ' ' + client + ': ' + (result.message||''));
+                        if (result.fix) {
+                          const badge = result.fixSource === 'manual' ? '✅' : '🤖';
+                          console.log('  💡 Fix ' + badge + ': ' + result.fix);
+                        }
+                      }
+                    }
+                    console.log('');
+                  }
+                } catch(e) {}
+              });
+            " >> /tmp/email-check-report.md
+            
+            # Check if score is below minimum
+            if [ "$SCORE" -lt "${{ inputs.min_score }}" ]; then
+              HAS_FAILURE=true
+            fi
+          fi
+        done
+
+        # Set outputs
+        echo "score=$LOWEST_SCORE" >> $GITHUB_OUTPUT
+        echo "errors=$TOTAL_ERRORS" >> $GITHUB_OUTPUT
+        echo "warnings=$TOTAL_WARNINGS" >> $GITHUB_OUTPUT
+        
+        # Store report path
+        echo "report_file=/tmp/email-check-report.md" >> $GITHUB_OUTPUT
+
+        # Print summary
+        echo ""
+        echo "═══════════════════════════════════════"
+        echo "📊 Email Render Check Summary"
+        echo "═══════════════════════════════════════"
+        echo "Lowest Score: $LOWEST_SCORE/100"
+        echo "Total Errors: $TOTAL_ERRORS"
+        echo "Total Warnings: $TOTAL_WARNINGS"
+        echo "Minimum Required: ${{ inputs.min_score }}"
+        echo "═══════════════════════════════════════"
+
+        # Fail if score is below minimum
+        if [ "$HAS_FAILURE" = "true" ]; then
+          echo ""
+          echo "❌ Compatibility score is below the minimum threshold of ${{ inputs.min_score }}"
+          exit 1
+        fi
+
+    - name: Post PR Comment
+      if: github.event_name == 'pull_request' && steps.email-check.outputs.report_file
+      uses: marocchino/sticky-pull-request-comment@v2
+      with:
+        header: email-render-check
+        message: |
+          ## 📊 Email Render Check Results
+          
+          **Overall Score:** ${{ steps.email-check.outputs.score }}/100
+          **Errors:** ${{ steps.email-check.outputs.errors }}
+          **Warnings:** ${{ steps.email-check.outputs.warnings }}
+          **Minimum Required:** ${{ inputs.min_score }}
+          
+          ${{ steps.email-check.outputs.score < inputs.min_score && '⚠️ **Score is below the minimum threshold!**' || '✅ Score meets the minimum threshold.' }}
+          
+          ---
+          $(cat /tmp/email-check-report.md 2>/dev/null || echo "No issues found.")
+          
+          ---
+          <sub>🤖 Powered by [email-render-check](https://github.com/swapnilsrivastava/email-render-check) | [npm](https://www.npmjs.com/package/email-render-check)</sub>

@@ -1,0 +1,34 @@
+name: Email Render Check
+
+on:
+  pull_request:
+    paths:
+      - '**/*.html'
+      - '**/*.mjml'
+      - '**/*.tsx'
+      - '**/*.jsx'
+      - 'emails/**'
+      - 'templates/**'
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.html'
+      - '**/*.mjml'
+      - '**/*.tsx'
+      - '**/*.jsx'
+      - 'emails/**'
+      - 'templates/**'
+
+jobs:
+  email-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Run Email Render Check
+        uses: swapnilsrivastava/email-render-check@main
+        with:
+          all_clients: 'true'
+          show_fixes: 'true'
+          min_score: '70'
