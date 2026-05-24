@@ -1,0 +1,199 @@
+name: 'Email Render Check'
+description: 'Check email HTML for rendering issues across Outlook, Gmail, Apple Mail, and more'
+author: 'Email Render Check <emailrendercheck@gmail.com>'
+branding:
+  icon: 'mail'
+  color: 'blue'
+
+inputs:
+  files:
+    description: 'Glob pattern for email files to check'
+    required: false
+    default: '**/*.{html,mjml,tsx,jsx}'
+  
+  clients:
+    description: 'Comma-separated list of email clients to check'
+    required: false
+    default: 'outlook-windows,gmail-web,apple-mail-ios'
+  
+  all_clients:
+    description: 'Check against all 10 supported clients'
+    required: false
+    default: 'false'
+  
+  strict:
+    description: 'Show ALL warnings including minor quirks'
+    required: false
+    default: 'false'
+  
+  show_fixes:
+    description: 'Show fix suggestions for each issue'
+    required: false
+    default: 'true'
+  
+  min_score:
+    description: 'Minimum compatibility score (0-100). Check fails if score is below this.'
+    required: false
+    default: '70'
+
+outputs:
+  score:
+    description: 'Overall compatibility score (0-100)'
+  errors:
+    description: 'Number of rendering errors found'
+  warnings:
+    description: 'Number of rendering warnings found'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install email-render-check
+      shell: bash
+      run: npm install -g email-render-check@latest
+
+    - name: Find changed email files
+      id: changed-files
+      uses: tj-actions/changed-files@v44
+      with:
+        files: ${{ inputs.files }}
+
+    - name: Check email rendering
+      id: email-check
+      shell: /usr/bin/bash {0}
+      run: |
+        set +e +o pipefail
+        if [ "${{ steps.changed-files.outputs.any_changed }}" = "false" ]; then
+          echo "No email files changed. Skipping check."
+          echo "score=100" >> $GITHUB_OUTPUT
+          echo "errors=0" >> $GITHUB_OUTPUT
+          echo "warnings=0" >> $GITHUB_OUTPUT
+          echo "report_body=" >> $GITHUB_OUTPUT
+          exit 0
+        fi
+
+        FLAGS=""
+        if [ "${{ inputs.all_clients }}" = "true" ]; then
+          FLAGS="$FLAGS --all"
+        elif [ -n "${{ inputs.clients }}" ]; then
+          FLAGS="$FLAGS --clients=${{ inputs.clients }}"
+        fi
+        if [ "${{ inputs.strict }}" = "true" ]; then
+          FLAGS="$FLAGS --strict"
+        fi
+        if [ "${{ inputs.show_fixes }}" = "true" ]; then
+          FLAGS="$FLAGS --fixes"
+        fi
+
+        TOTAL_ERRORS=0
+        TOTAL_WARNINGS=0
+        LOWEST_SCORE=100
+        REPORT_BODY=""
+        HAS_FAILURE=false
+
+        for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          case "$file" in
+            *.html|*.mjml|*.tsx|*.jsx)
+              echo "🔍 Checking: $file"
+              CHECK_OUTPUT=$(email-render-check "$file" $FLAGS --json 2>&1) || true
+              
+              COMPILE_FAILED=$(echo "$CHECK_OUTPUT" | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{try{const r=JSON.parse(d);console.log(r.compileFailed===true?'true':'false')}catch(e){console.log('false')}})")
+              
+              if [ "$COMPILE_FAILED" = "true" ]; then
+                MISSING=$(echo "$CHECK_OUTPUT" | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{try{const r=JSON.parse(d);console.log(r.missingModule||'')}catch(e){console.log('')}})")
+                HINT=$(echo "$CHECK_OUTPUT" | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{try{const r=JSON.parse(d);console.log(r.hint||'')}catch(e){console.log('')}})")
+                
+                REPORT_BODY="${REPORT_BODY}\\n### 📧 ${file}\\n**⚠️ Compilation Failed**\\n\\nThis file could not be compiled to HTML.\\n"
+                if [ -n "$MISSING" ]; then
+                  REPORT_BODY="${REPORT_BODY}Missing dependency: \`${MISSING}\`\\n\\n\`\`\`bash\\nnpm install ${MISSING}\\n\`\`\`\\n"
+                fi
+                if [ -n "$HINT" ]; then
+                  REPORT_BODY="${REPORT_BODY}${HINT}\\n"
+                fi
+                REPORT_BODY="${REPORT_BODY}\\n"
+                HAS_FAILURE=true
+                continue
+              fi
+              
+              PROPERTIES=$(echo "$CHECK_OUTPUT" | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{try{console.log(JSON.parse(d).summary.totalProperties||0)}catch(e){console.log(0)}})")
+              ERRORS=$(echo "$CHECK_OUTPUT" | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{try{console.log(JSON.parse(d).summary.totalErrors||0)}catch(e){console.log(0)}})")
+              WARNINGS=$(echo "$CHECK_OUTPUT" | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{try{console.log(JSON.parse(d).summary.totalWarnings||0)}catch(e){console.log(0)}})")
+              CLIENTS_V=$(echo "$CHECK_OUTPUT" | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{try{console.log(JSON.parse(d).summary.totalClients||1)}catch(e){console.log(1)}})")
+              TOTAL_ERRORS=$((TOTAL_ERRORS + ERRORS))
+              TOTAL_WARNINGS=$((TOTAL_WARNINGS + WARNINGS))
+              if [ "$PROPERTIES" -gt 0 ] && [ "$CLIENTS_V" -gt 0 ]; then
+                SCORE=$(( (PROPERTIES * CLIENTS_V - ERRORS - WARNINGS) * 100 / (PROPERTIES * CLIENTS_V) ))
+              else
+                SCORE=100
+              fi
+              if [ "$SCORE" -lt "$LOWEST_SCORE" ]; then
+                LOWEST_SCORE=$SCORE
+              fi
+              if [ "$SCORE" -lt "${{ inputs.min_score }}" ]; then
+                HAS_FAILURE=true
+              fi
+              REPORT_BODY="${REPORT_BODY}\\n### 📧 ${file}\\n**Score:** ${SCORE}/100 | **Errors:** ${ERRORS} | **Warnings:** ${WARNINGS}\\n"
+              ISSUES=$(echo "$CHECK_OUTPUT" | node -e "
+                let d='';
+                process.stdin.on('data',c=>d+=c);
+                process.stdin.on('end',()=>{
+                  try {
+                    const r=JSON.parse(d);
+                    const failed=(r.propertyResults||[]).filter(p=>p.hasIssues);
+                    if(failed.length===0) console.log('✅ No rendering issues found.');
+                    for(const p of failed) {
+                      console.log('📌 **'+p.property+'**');
+                      for(const [c,res] of Object.entries(p.results||{})) {
+                        if(res.status!=='pass') {
+                          const icon=res.status==='fail'?'❌':'⚠️';
+                          console.log('  '+icon+' '+c+': '+(res.message||''));
+                          if(res.fix) console.log('  💡 '+res.fix);
+                        }
+                      }
+                    }
+                  } catch(e) { console.log('⚠️ Could not parse results.'); }
+                });
+              " 2>/dev/null)
+              REPORT_BODY="${REPORT_BODY}${ISSUES}\\n"
+              ;;
+          esac
+        done
+
+        echo "score=$LOWEST_SCORE" >> $GITHUB_OUTPUT
+        echo "errors=$TOTAL_ERRORS" >> $GITHUB_OUTPUT
+        echo "warnings=$TOTAL_WARNINGS" >> $GITHUB_OUTPUT
+        echo "📊 Lowest Score: $LOWEST_SCORE/100 | Errors: $TOTAL_ERRORS | Warnings: $TOTAL_WARNINGS"
+        echo "report_body<<EOF" >> $GITHUB_OUTPUT
+        echo -e "$REPORT_BODY" >> $GITHUB_OUTPUT
+        echo "EOF" >> $GITHUB_OUTPUT
+        if [ "$HAS_FAILURE" = "true" ] || [ "$LOWEST_SCORE" -lt "${{ inputs.min_score }}" ]; then
+          echo "❌ Issues found"
+          exit 1
+        else
+          echo "✅ All checks passed"
+        fi
+
+    - name: Post PR Comment
+      if: always() && github.event_name == 'pull_request' && steps.email-check.outputs.report_body != ''
+      uses: marocchino/sticky-pull-request-comment@v2
+      with:
+        header: email-render-check
+        message: |
+          ## 📊 Email Render Check Results
+          
+          **Score:** ${{ steps.email-check.outputs.score }}/100
+          **Errors:** ${{ steps.email-check.outputs.errors }}
+          **Warnings:** ${{ steps.email-check.outputs.warnings }}
+          **Minimum Required:** ${{ inputs.min_score }}
+          
+          ${{ steps.email-check.outputs.score < inputs.min_score && '⚠️ **Score is below the minimum threshold!**' || '✅ Score meets the minimum threshold.' }}
+          
+          ---
+          ${{ steps.email-check.outputs.report_body }}
+          
+          ---
+          <sub>🤖 Powered by [email-render-check](https://github.com/emailrendercheck/email-render-check) | [npm](https://www.npmjs.com/package/email-render-check)</sub>

@@ -1,0 +1,5546 @@
+{
+  "_template": {
+    "title": "Test property",
+    "category": "css",
+    "description": "This is the description of the test property.",
+    "last_test_date": "2023-12-31",
+    "clients": {
+      "outlook_windows": "unknown",
+      "outlook_mac": "unknown",
+      "outlook_web": "unknown",
+      "gmail_web": "unknown",
+      "gmail_ios": "unknown",
+      "gmail_android": "unknown",
+      "apple_mail_macos": "unknown",
+      "apple_mail_ios": "unknown",
+      "yahoo_web": "unknown",
+      "samsung_android": "unknown"
+    }
+  },
+  "amp": {
+    "title": "AMP for Email",
+    "category": "others",
+    "description": "Support for rendering emails in the AMP format.",
+    "last_test_date": "2020-03-31",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "partial",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "partial",
+      "samsung_android": "not_supported"
+    }
+  },
+  "bimi": {
+    "title": "BIMI",
+    "category": "others",
+    "description": "BIMI (Brand Indicators for Message Identification) is a specification allowing for the display of brand logos next to authenticated e-mails.",
+    "last_test_date": "2022-12-29",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-accent-color": {
+    "title": "accent-color",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2023-12-19",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "css-align-items": {
+    "title": "align-items",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2023-12-19",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-animation": {
+    "title": "animation",
+    "category": "css",
+    "description": "Tests for the shorthand `animation` property and its longhand equivalents.",
+    "last_test_date": "2026-04-07",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-aspect-ratio": {
+    "title": "aspect-ratio",
+    "category": "css",
+    "description": "Sets a preferred aspect ratio for the element",
+    "last_test_date": "2023-12-19",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-at-font-face": {
+    "title": "@font-face",
+    "category": "css",
+    "description": "`@font-face` in CSS allows to include your own fonts inside an email.",
+    "last_test_date": "2023-12-19",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "partial",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "css-at-import": {
+    "title": "@import",
+    "category": "css",
+    "description": "This is the description of the `@import` property.",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-at-keyframes": {
+    "title": "@keyframes",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2021-05-25",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-at-media-device-pixel-ratio": {
+    "title": "@media (-webkit-device-pixel-ratio)",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-08-20",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-at-media-hover": {
+    "title": "@media (hover), @media (any-hover)",
+    "category": "css",
+    "description": "This media query tests whether the user's input device[s] (i.e mouse, trackpad etc.) can hover over elements",
+    "last_test_date": "2022-08-29",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-at-media-orientation": {
+    "title": "@media (orientation)",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-08-20",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-at-media-prefers-color-scheme": {
+    "title": "@media (prefers-color-scheme)",
+    "category": "css",
+    "description": "This media query allows to theme for system light and dark mode.",
+    "last_test_date": "2023-03-08",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "partial",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-at-media-prefers-reduced-motion": {
+    "title": "@media (prefers-reduced-motion)",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2021-02-20",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-at-media": {
+    "title": "@media",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2023-12-13",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "partial"
+    }
+  },
+  "css-at-supports": {
+    "title": "@supports",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-05-25",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-backdrop-filter": {
+    "title": "backdrop-filter",
+    "category": "css",
+    "description": "Lets you apply graphical effects such as blurring or color shifting to the area behind an element.",
+    "last_test_date": "2024-01-17",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-background-blend-mode": {
+    "title": "background-blend-mode",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-background-clip": {
+    "title": "background-clip",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-background-color": {
+    "title": "background-color",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-background-image": {
+    "title": "background-image",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2023-07-24",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "partial"
+    }
+  },
+  "css-background-origin": {
+    "title": "background-origin",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-background-position": {
+    "title": "background-position",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-background-repeat": {
+    "title": "background-repeat",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-background-size": {
+    "title": "background-size",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-background": {
+    "title": "background",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2023-07-24",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "partial",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-block-inline-size": {
+    "title": "block-size & inline-size",
+    "category": "css",
+    "description": "Defines the horizontal or vertical size of an element's block, depending on its writing mode.",
+    "last_test_date": "2022-07-14",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-border-collapse": {
+    "title": "border-collapse",
+    "category": "css",
+    "description": "Sets whether cells inside a `<table>` have shared or separate borders.",
+    "last_test_date": "2023-12-20",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-border-image": {
+    "title": "border-image",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-border-inline-block-individual": {
+    "title": "border-inline & border-block individual logical properties",
+    "category": "css",
+    "description": "Support for `border-inline` & `border-block` individual logical properties.",
+    "last_test_date": "2022-07-14",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "css-border-inline-block-longhand": {
+    "title": "border-inline & border-block longhand properties",
+    "category": "css",
+    "description": "Support for `border-inline` & `border-block` longhand properties.",
+    "last_test_date": "2022-07-14",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-border-inline-block": {
+    "title": "border-inline & border-block",
+    "category": "css",
+    "description": "Support for the `border-inline` and `border-block` shorthand properties.",
+    "last_test_date": "2022-07-13",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-border-radius-logical": {
+    "title": "border-radius logical properties",
+    "category": "css",
+    "description": "Support for border radius logical properties",
+    "last_test_date": "2022-08-16",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-border-radius": {
+    "title": "border-radius",
+    "category": "css",
+    "description": "The `border-radius` CSS property rounds the corners of an element's outer border edge.",
+    "last_test_date": "2021-03-09",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-border-spacing": {
+    "title": "border-spacing",
+    "category": "css",
+    "description": "Sets the distance between the borders of adjacent cells in a `<table>`.",
+    "last_test_date": "2023-12-20",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-border": {
+    "title": "border",
+    "category": "css",
+    "description": "The `border` properties set an element's border. This page accounts for all `border` longhands and shorthands.",
+    "last_test_date": "2021-07-22",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-box-shadow": {
+    "title": "box-shadow",
+    "category": "css",
+    "description": "Adds shadow effects around an element's frame.",
+    "last_test_date": "2023-12-20",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-box-sizing": {
+    "title": "box-sizing",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-caption-side": {
+    "title": "caption-side",
+    "category": "css",
+    "description": "The `caption-side` CSS property puts the content of a table's `<caption>` on the specified side.",
+    "last_test_date": "2021-05-13",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-clear": {
+    "title": "clear",
+    "category": "css",
+    "description": "Sets whether an element must be moved below (cleared) floating elements that precede it.",
+    "last_test_date": "2024-09-06",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "unknown",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-clip-path": {
+    "title": "clip-path",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2021-03-09",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-color-scheme": {
+    "title": "color-scheme CSS property",
+    "category": "css",
+    "description": "Changes the default colors of HTML elements. Useful for when you want an email to display only in a dark color scheme or only a light scheme, regardless of user settings",
+    "last_test_date": "2023-09-18",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-column-count": {
+    "title": "column-count",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-column-layout-properties": {
+    "title": "css column properties",
+    "category": "css",
+    "description": "Support for the `columns` shorthand and longhand properties.",
+    "last_test_date": "2022-08-02",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-comments": {
+    "title": "CSS comments",
+    "category": "css",
+    "description": "Adds explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet",
+    "last_test_date": "2024-04-25",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-conic-gradient": {
+    "title": "conic-gradient()",
+    "category": "css",
+    "description": "Creates an image consisting of a gradient with color transitions rotated around a center point (rather than radiating from the center).",
+    "last_test_date": "2023-01-02",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "css-cursor": {
+    "title": "cursor",
+    "category": "css",
+    "description": "The cursor CSS property sets the mouse cursor, if any, to show when the mouse pointer is over an element.",
+    "last_test_date": "2025-07-02",
+    "clients": {
+      "outlook_windows": "unknown",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "unknown"
+    }
+  },
+  "css-direction": {
+    "title": "direction",
+    "category": "css",
+    "description": "Sets the direction of text or table columns.",
+    "last_test_date": "2021-10-05",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-display-flex": {
+    "title": "display:flex",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2021-11-02",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-display-grid": {
+    "title": "display:grid",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-display-none": {
+    "title": "display:none",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-display": {
+    "title": "display",
+    "category": "css",
+    "description": "Sets whether an element is treated as a block or inline element and the layout used for its children.",
+    "last_test_date": "2021-12-01",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-empty-cells": {
+    "title": "empty-cells",
+    "category": "css",
+    "description": "Sets whether borders and backgrounds appear around `<table>` cells that have no visible content.",
+    "last_test_date": "2024-08-23",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-filter": {
+    "title": "filter",
+    "category": "css",
+    "description": "Tests with values `blur`, `brightness`, `grayscale`, `hue-rotate`, `invert`, `opacity`, `saturate`, `sepia` and `shadow`.",
+    "last_test_date": "2024-01-03",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-flex-direction": {
+    "title": "flex-direction:column",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2023-01-17",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-flex-wrap": {
+    "title": "flex-wrap: wrap",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2023-01-16",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-float": {
+    "title": "float",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2024-05-08",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-font-kerning": {
+    "title": "font-kerning",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2022-08-01",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-font-size-adjust": {
+    "title": "font-size-adjust",
+    "category": "css",
+    "description": "Adjusts the size of lowercase letters relative to the size of uppercase letters.",
+    "last_test_date": "2026-04-16",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "partial",
+      "samsung_android": "unknown"
+    }
+  },
+  "css-font-size": {
+    "title": "font-size",
+    "category": "css",
+    "description": "Sets the size of the font.",
+    "last_test_date": "2024-02-28",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "partial"
+    }
+  },
+  "css-font-stretch": {
+    "title": "font-stretch",
+    "category": "css",
+    "description": "Selecting different font widths (e.g. condensed, expanded)",
+    "last_test_date": "2023-09-23",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "css-font-weight": {
+    "title": "font-weight",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2022-06-23",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-font": {
+    "title": "font shorthand",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-function-clamp": {
+    "title": "clamp()",
+    "category": "css",
+    "description": "Support for the CSS `clamp()` function.",
+    "last_test_date": "2021-05-07",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "css-function-light-dark": {
+    "title": "light-dark()",
+    "category": "css",
+    "description": "Enables setting two colors (one for light and the other for dark mode) for a property.",
+    "last_test_date": "2024-08-14",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "css-function-max": {
+    "title": "max()",
+    "category": "css",
+    "description": "Support for the CSS `max()` function.",
+    "last_test_date": "2021-05-07",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "css-function-min": {
+    "title": "min()",
+    "category": "css",
+    "description": "Support for the CSS `min()` function.",
+    "last_test_date": "2021-05-07",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "css-gap": {
+    "title": "gap, column-gap, row-gap",
+    "category": "css",
+    "description": "Properties for adding spacing between grid items, flex items and columns",
+    "last_test_date": "2022-12-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-grid-template": {
+    "title": "grid-template-* properties",
+    "category": "css",
+    "description": "This page reflects support for `grid-template`, `grid-template-areas`, `grid-template-columns`, `grid-template-rows`.",
+    "last_test_date": "2023-01-09",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-height": {
+    "title": "height property",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-09-27",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-hyphenate-character": {
+    "title": "hyphenate-character",
+    "category": "css",
+    "description": "Sets the character (or string) used at the end of a line before a hyphenation break.",
+    "last_test_date": "2024-06-19",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-hyphenate-limit-chars": {
+    "title": "hyphenate-limit-chars",
+    "category": "css",
+    "description": "Specifies the minimum word length to allow hyphenation of words as well as the minimum number of characters before and after the hyphen.",
+    "last_test_date": "2024-08-08",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-hyphens": {
+    "title": "hyphens",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2022-08-03",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-important": {
+    "title": "!important keyword",
+    "category": "css",
+    "description": "An `!important` declaration takes precedence over a normal declaration.",
+    "last_test_date": "2021-11-30",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-inert-attribute": {
+    "title": "inert",
+    "category": "css",
+    "description": "This attribute should render elements inactive",
+    "last_test_date": "2026-04-16",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-inline-size": {
+    "title": "inline-size ",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-inset": {
+    "title": "inset",
+    "category": "css",
+    "description": "Shorthand that corresponds to the `top`, `right`, `bottom`, and/or `left` properties",
+    "last_test_date": "2024-05-29",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-intrinsic-size": {
+    "title": "fit-content, min-content, max-content",
+    "category": "css",
+    "description": "Sets the height or width relative to its content.",
+    "last_test_date": "2022-12-31",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-justify-content": {
+    "title": "justify-content",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2021-03-09",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-left-right-top-bottom": {
+    "title": "left, right, top, bottom",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2021-05-16",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "css-letter-spacing": {
+    "title": "letter-spacing",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-01-19",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-line-height": {
+    "title": "line-height",
+    "category": "css",
+    "description": "Sets the height of a line box. Or, basically, the height of a line of text.",
+    "last_test_date": "2021-10-02",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-linear-gradient": {
+    "title": "linear-gradient()",
+    "category": "css",
+    "description": "Creates an image consisting of a progressive transition between two or more colors along a straight line.",
+    "last_test_date": "2021-12-29",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "css-list-style-image": {
+    "title": "list-style-image",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-04-20",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "not_supported",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-list-style-position": {
+    "title": "list-style-position",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-04-20",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-list-style-type": {
+    "title": "list-style-type",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-04-20",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-list-style": {
+    "title": "list-style",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-04-20",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "partial",
+      "outlook_web": "supported",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-margin-block-start-end": {
+    "title": "margin-block-start & margin-block-end",
+    "category": "css",
+    "description": "Support for the `margin-block-start` and `margin-block-end` css properties.",
+    "last_test_date": "2022-07-13",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-margin-inline-block": {
+    "title": "margin-inline & margin-block",
+    "category": "css",
+    "description": "Support for the `margin-inline` and `margin-block` shorthand properties.",
+    "last_test_date": "2022-07-12",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-margin-inline-start-end": {
+    "title": "margin-inline-start & margin-inline-end",
+    "category": "css",
+    "description": "Support for the `margin-inline-start` and `margin-inline-end` css properties.",
+    "last_test_date": "2022-07-13",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-margin": {
+    "title": "margin",
+    "category": "css",
+    "description": "Support for the `margin` shorthand property and the `margin-left`, `margin-right`, `margin-top`, `margin-bottom` properties.",
+    "last_test_date": "2019-10-01",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-mask-image": {
+    "title": "mask-image",
+    "category": "css",
+    "description": "Sets the image that is used as mask layer for an element",
+    "last_test_date": "2024-11-27",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-max-block-size": {
+    "title": "max-block-size",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2022-09-01",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-max-height": {
+    "title": "max-height property",
+    "category": "css",
+    "description": "Sets the maximum height of an element.",
+    "last_test_date": "2021-11-29",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-max-inline-size": {
+    "title": "max-inline-size",
+    "category": "css",
+    "description": "Defines the horizontal or vertical maximum size of an element's block, depending on its writing mode",
+    "last_test_date": "2024-05-31",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-max-width": {
+    "title": "max-width",
+    "category": "css",
+    "description": "This is the description of the `max-width` property.",
+    "last_test_date": "2019-08-02",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-min-block-size": {
+    "title": "min-block-size",
+    "category": "css",
+    "description": "Defines the minimum horizontal or vertical size of an element's block, depending on its writing mode",
+    "last_test_date": "2024-05-31",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-min-height": {
+    "title": "min-height property",
+    "category": "css",
+    "description": "Sets the minimum height of an element.",
+    "last_test_date": "2021-11-29",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-min-inline-size": {
+    "title": "min-inline-size",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2022-08-30",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-min-width": {
+    "title": "min-width property",
+    "category": "css",
+    "description": "Sets the minimum width of an element.",
+    "last_test_date": "2021-11-29",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-mix-blend-mode": {
+    "title": "mix-blend-mode",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-12-12",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-modern-color": {
+    "title": "lch(), oklch(), lab(), oklab()",
+    "category": "css",
+    "description": "Modern color values: lch, lab, oklch and oklab",
+    "last_test_date": "2023-01-18",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-nesting": {
+    "title": "CSS Nesting",
+    "category": "css",
+    "description": "A syntax for nesting selectors, providing the ability to nest one style rule inside another.",
+    "last_test_date": "2023-08-31",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "partial"
+    }
+  },
+  "css-object-fit": {
+    "title": "object-fit",
+    "category": "css",
+    "description": "The `object-fit` CSS property sets how the content of a replaced element, such as an `<img>` or `<video>`, should be resized to fit its container.",
+    "last_test_date": "2021-07-15",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-object-position": {
+    "title": "object-position",
+    "category": "css",
+    "description": "The `object-position` CSS property specifies the alignment of the selected replaced element's contents within the element's box. Areas of the box which aren't covered by the replaced element's object will show the element's background.",
+    "last_test_date": "2021-07-15",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-opacity": {
+    "title": "opacity",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-orphans": {
+    "title": "orphans",
+    "category": "css",
+    "description": "Sets the minimum number of lines in a block container split on an old page, region or column.",
+    "last_test_date": "2024-06-13",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "partial",
+      "gmail_ios": "not_supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-outline-offset": {
+    "title": "outline-offset",
+    "category": "css",
+    "description": "Controls the position of an outline.",
+    "last_test_date": "2022-12-26",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-outline": {
+    "title": "outline",
+    "category": "css",
+    "description": "Sets a line outside of the element's border.",
+    "last_test_date": "2022-03-17",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-overflow-wrap": {
+    "title": "overflow-wrap",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2022-08-03",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-overflow": {
+    "title": "overflow",
+    "category": "css",
+    "description": "Sets the desired behavior when content does not fit in the element's padding box",
+    "last_test_date": "2025-05-27",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "partial"
+    }
+  },
+  "css-padding-block-start-end": {
+    "title": "padding-block-start & padding-block-end",
+    "category": "css",
+    "description": "Support for the `padding-block-start` and `padding-block-end` css properties.",
+    "last_test_date": "2022-07-13",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-padding-inline-block": {
+    "title": "padding-inline & padding-block",
+    "category": "css",
+    "description": "Support for the `padding-inline` and `padding-block` shorthand properties.",
+    "last_test_date": "2022-07-13",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-padding-inline-start-end": {
+    "title": "padding-inline-start & padding-inline-end",
+    "category": "css",
+    "description": "Support for the `padding-inline-start` and `padding-inline-end` css properties.",
+    "last_test_date": "2022-07-13",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-padding": {
+    "title": "padding",
+    "category": "css",
+    "description": "This test includes support for the `padding` shorthand property as well as for `padding-left`, `padding-right`, `padding-top` and `padding-bottom`.",
+    "last_test_date": "2019-07-25",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-position": {
+    "title": "position",
+    "category": "css",
+    "description": "Tests for CSS positioning include `relative`, `absolute`, `fixed` and `sticky`.",
+    "last_test_date": "2021-05-16",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "partial"
+    }
+  },
+  "css-pseudo-class-active": {
+    "title": ":active",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-pseudo-class-checked": {
+    "title": ":checked",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-03-10",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-default": {
+    "title": ":default",
+    "category": "css",
+    "description": "Selects form elements that are the default in a group of related elements.",
+    "last_test_date": "2026-02-05",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "unknown"
+    }
+  },
+  "css-pseudo-class-first-child": {
+    "title": ":first-child",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-16",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-first-of-type": {
+    "title": ":first-of-type",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-16",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-focus-visible": {
+    "title": ":focus-visible",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2026-04-14",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "unknown",
+      "yahoo_web": "supported",
+      "samsung_android": "partial"
+    }
+  },
+  "css-pseudo-class-focus-within": {
+    "title": ":focus-within",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2026-04-14",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "unknown",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-focus": {
+    "title": ":focus",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-has": {
+    "title": ":has()",
+    "category": "css",
+    "description": "Represents an element if any of the selectors passed as parameters match at least one element.",
+    "last_test_date": "2022-03-15",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "partial",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-pseudo-class-hover": {
+    "title": ":hover",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-23",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-lang": {
+    "title": "lang()",
+    "category": "css",
+    "description": "Matches elements based on the language they are determined to be in.",
+    "last_test_date": "2022-07-12",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-last-child": {
+    "title": ":last-child",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-19",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-last-of-type": {
+    "title": ":last-of-type",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-19",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-link": {
+    "title": ":link",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-23",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-not": {
+    "title": ":not",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-23",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-nth-child": {
+    "title": ":nth-child",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-19",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-nth-last-child": {
+    "title": ":nth-last-child",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-19",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-nth-last-of-type": {
+    "title": ":nth-last-of-type",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-19",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-nth-of-type": {
+    "title": ":nth-of-type",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-19",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-only-child": {
+    "title": ":only-child",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-19",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-only-of-type": {
+    "title": ":only-of-type",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-19",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-target": {
+    "title": ":target",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-class-visited": {
+    "title": ":visited",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-10-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-pseudo-element-after": {
+    "title": "::after",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-05-21",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-element-before": {
+    "title": "::before",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-05-21",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-element-first-letter": {
+    "title": "::first-letter",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-05-21",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-element-first-line": {
+    "title": "::first-line",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-05-21",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-element-marker": {
+    "title": "::marker",
+    "category": "css",
+    "description": "Selects the marker box of a list item (typically a bullet or number).",
+    "last_test_date": "2022-12-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-pseudo-element-placeholder": {
+    "title": "::placeholder",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-05-21",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-radial-gradient": {
+    "title": "radial-gradient()",
+    "category": "css",
+    "description": "Creates an image consisting of a progressive transition between two or more colors that radiate from an origin.",
+    "last_test_date": "2021-12-29",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-resize": {
+    "title": "resize",
+    "category": "css",
+    "description": "Sets whether an element is resizable, and in which directions.",
+    "last_test_date": "2024-01-17",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-rgb": {
+    "title": "rgb()",
+    "category": "css",
+    "description": "RGB functional notation (`rgb()`)",
+    "last_test_date": "2021-05-14",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "partial",
+      "outlook_web": "supported",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-rgba": {
+    "title": "rgba()",
+    "category": "css",
+    "description": "RGB functional notation with alpha-channel transparency value (`rgba()`)",
+    "last_test_date": "2021-05-14",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-scroll-snap": {
+    "title": "scroll-snap",
+    "category": "css",
+    "description": "Controls panning and scrolling behaviour with snap positions.",
+    "last_test_date": "2023-02-27",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-selector-adjacent-sibling": {
+    "title": "Adjacent sibling combinator",
+    "category": "css",
+    "description": "The adjacent sibling combinator (`h1 + p`) allows to target an element that is directly after another.",
+    "last_test_date": "2020-03-11",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-selector-attribute": {
+    "title": "Attribute selector",
+    "category": "css",
+    "description": "The attribute selector (`[attr]`) targets elements with this specific attribute.",
+    "last_test_date": "2020-12-15",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-selector-chaining": {
+    "title": "Chaining selectors",
+    "category": "css",
+    "description": "Chaining selectors (`.foo.bar`) allows to apply styles to elements matching all the corresponding selectors.",
+    "last_test_date": "2019-10-13",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "partial",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-selector-child": {
+    "title": "Child combinator",
+    "category": "css",
+    "description": "The child combinator is represented by a superior sign (`>`) between two selectors and matches the second selector if it is a direct child of the first selector.",
+    "last_test_date": "2019-10-13",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-selector-class": {
+    "title": "Class selector",
+    "category": "css",
+    "description": "The class selector (`.className`) allows to apply styles to a group of elements with the corresponding `class` attribute.",
+    "last_test_date": "2019-10-13",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-selector-descendant": {
+    "title": "Descendant combinator",
+    "category": "css",
+    "description": "The descendant combinator is represented by a space (` `) between two selectors and matches the second selector if it has ancestor matching the first selector.",
+    "last_test_date": "2019-10-13",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-selector-general-sibling": {
+    "title": "General sibling combinator",
+    "category": "css",
+    "description": "The general sibling combinator (`img ~ p`) allows to target any element that after another (directly or indirectly).",
+    "last_test_date": "2020-03-11",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-selector-grouping": {
+    "title": "Grouping selectors",
+    "category": "css",
+    "description": "Grouping selectors (`.foo, .bar`) allows to apply the same styles to the different corresponding elements.",
+    "last_test_date": "2019-10-13",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-selector-id": {
+    "title": "ID selector",
+    "category": "css",
+    "description": "The ID selector (`#id`) allows to apply styles to an element with the corresponding `id` attribute.",
+    "last_test_date": "2019-10-13",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-selector-type": {
+    "title": "Type selector",
+    "category": "css",
+    "description": "Type selector or element selectors allow to apply styles by HTML element names.",
+    "last_test_date": "2019-10-13",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-selector-universal": {
+    "title": "Universal selector *",
+    "category": "css",
+    "description": "The universal selector (`*`) allows to apply styles to every elements.",
+    "last_test_date": "2019-10-13",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-shape-margin": {
+    "title": "shape-margin",
+    "category": "css",
+    "description": "Sets a margin for a CSS shape created using `shape-outside`",
+    "last_test_date": "2024-03-13",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-shape-outside": {
+    "title": "shape-outside",
+    "category": "css",
+    "description": "Defines a shape, which may be non-rectangular, around which adjacent inline content should wrap.",
+    "last_test_date": "2024-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-sytem-ui": {
+    "title": "system-ui, ui-serif, ui-sans-serif, ui-rounded, ui-monospace",
+    "category": "css",
+    "description": "CSS keywords for specifying system fonts for `font-family`.",
+    "last_test_date": "2022-12-30",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "partial"
+    }
+  },
+  "css-tab-size": {
+    "title": "tab-size",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2022-07-21",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-table-layout": {
+    "title": "table-layout",
+    "category": "css",
+    "description": "The table-layout property defines the algorithm used to lay out table cells, rows, and columns.",
+    "last_test_date": "2022-07-20",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-text-align-last": {
+    "title": "text-align-last",
+    "category": "css",
+    "description": "The `text-align-last` CSS property sets how the last line of a block or a line right before a forced line break is aligned.",
+    "last_test_date": "2022-08-31",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-text-align": {
+    "title": "text-align",
+    "category": "css",
+    "description": "Sets the horizontal alignment of the content.",
+    "last_test_date": "2025-11-14",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "partial"
+    }
+  },
+  "css-text-decoration-color": {
+    "title": "text-decoration-color",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-04-30",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-text-decoration-line": {
+    "title": "text-decoration-line",
+    "category": "css",
+    "description": "Sets the kind of decoration that is used on text in an element, such as an underline or overline.",
+    "last_test_date": "2023-12-06",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-text-decoration-skip-ink": {
+    "title": "text-decoration-skip-ink",
+    "category": "css",
+    "description": "Specifies how overlines and underlines are drawn when they pass over glyph ascenders and descenders.",
+    "last_test_date": "2023-12-08",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-text-decoration-style": {
+    "title": "text-decoration-style",
+    "category": "css",
+    "description": "Sets the style of the lines specified by text-decoration-line.",
+    "last_test_date": "2023-12-06",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-text-decoration-thickness": {
+    "title": "text-decoration-thickness",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2023-01-16",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-text-decoration": {
+    "title": "text-decoration",
+    "category": "css",
+    "description": "Tested with the values `overline`, `underline` and `line-through`.",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-text-emphasis-position": {
+    "title": "text-emphasis-position",
+    "category": "css",
+    "description": "Determines the position of the emphasis mark.",
+    "last_test_date": "2022-07-07",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-text-emphasis": {
+    "title": "text-emphasis",
+    "category": "css",
+    "description": "Applies emphasis marks to text commonly used in East Asian languages. Tests with text-emphasis, text-emphasis-color & text-emphasis-style properties.",
+    "last_test_date": "2022-07-07",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-text-indent": {
+    "title": "text-indent",
+    "category": "css",
+    "description": "Support below refers to supporting a `<length>` value only. This does not include the new `each-line` or `hanging` keywords.",
+    "last_test_date": "2021-01-31",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-text-justify": {
+    "title": "text-justify",
+    "category": "css",
+    "description": "Sets what type of justification should be applied to text when `text-align: justify;` is set on an element.",
+    "last_test_date": "2024-04-17",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "partial"
+    }
+  },
+  "css-text-orientation": {
+    "title": "text-orientation",
+    "category": "css",
+    "description": "Sets the orientation of the text characters in vertical mode.",
+    "last_test_date": "2023-12-08",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-text-overflow": {
+    "title": "text-overflow",
+    "category": "css",
+    "description": "Tested with the value `ellipsis`.",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-text-shadow": {
+    "title": "text-shadow",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-text-transform": {
+    "title": "text-transform",
+    "category": "css",
+    "description": "Each of the six `text-transform` values defined by MDN (`capitalize`, `uppercase`, `lowercase`, `none`, `full-width`, `full-size-kana`).",
+    "last_test_date": "2021-09-19",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-text-underline-offset": {
+    "title": "text-underline-offset",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2023-01-16",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-text-underline-position": {
+    "title": "text-underline-position",
+    "category": "css",
+    "description": "Specifies the position of the underline which is set using the `text-decoration property`'s underline value.",
+    "last_test_date": "2023-12-08",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-text-wrap": {
+    "title": "text-wrap",
+    "category": "css",
+    "description": "Controls how text inside an element is wrapped",
+    "last_test_date": "2024-04-03",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-transform": {
+    "title": "transform",
+    "category": "css",
+    "description": "Tested with values `matrix`, `translate`, `scale`, `rotate`, `skew`, `scale translate`.",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-transition": {
+    "title": "transition",
+    "category": "css",
+    "description": "Creates a visual transition when changing CSS properties.",
+    "last_test_date": "2024-03-29",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "partial"
+    }
+  },
+  "css-unit-calc": {
+    "title": "CSS calc() function",
+    "category": "css",
+    "description": "Support for CSS calc function.",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-ch": {
+    "title": "ch unit",
+    "category": "css",
+    "description": "Support for ch unit, relative to the width of a '0'.",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-cm": {
+    "title": "cm unit",
+    "category": "css",
+    "description": "Support for centimeters unit",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-em": {
+    "title": "em unit",
+    "category": "css",
+    "description": "Support for em unit, relative to the current font-size.",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-ex": {
+    "title": "ex unit",
+    "category": "css",
+    "description": "Support for ex unit, relative to the height of an 'x'.",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-in": {
+    "title": "in unit",
+    "category": "css",
+    "description": "Support for inches unit",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-initial": {
+    "title": "initial unit",
+    "category": "css",
+    "description": "Support for initial keyword value.",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-mm": {
+    "title": "mm unit",
+    "category": "css",
+    "description": "Support for millimeters unit",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-pc": {
+    "title": "pc unit",
+    "category": "css",
+    "description": "Support for picas unit",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-percent": {
+    "title": "% unit",
+    "category": "css",
+    "description": "Support for percentage unit",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-pt": {
+    "title": "pt unit",
+    "category": "css",
+    "description": "Support for points unit",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-px": {
+    "title": "px unit",
+    "category": "css",
+    "description": "Support for pixels unit",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-rem": {
+    "title": "rem unit",
+    "category": "css",
+    "description": "Support for rem unit, relative to the root font-size.",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-vh": {
+    "title": "vh unit",
+    "category": "css",
+    "description": "Support for viewport height unit.",
+    "last_test_date": "2023-10-01",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-vmax": {
+    "title": "vmax unit",
+    "category": "css",
+    "description": "Support for viewport maximum unit.",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-vmin": {
+    "title": "vmin unit",
+    "category": "css",
+    "description": "Support for viewport minimum unit.",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-unit-vw": {
+    "title": "vw unit",
+    "category": "css",
+    "description": "Support for viewport width unit.",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-user-select": {
+    "title": "user-select",
+    "category": "css",
+    "description": "Controls whether the user can select text.",
+    "last_test_date": "2024-02-14",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-variables": {
+    "title": "CSS Variables (Custom Properties)",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-02-25",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-vertical-align": {
+    "title": "vertical-align",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2020-12-21",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-visibility": {
+    "title": "visibility",
+    "category": "css",
+    "description": "Tested for values `hidden` and `collapse`.",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-white-space-collapse": {
+    "title": "white-space-collapse",
+    "category": "css",
+    "description": "Controls how white space inside an element is collapsed.",
+    "last_test_date": "2024-09-04",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "css-white-space": {
+    "title": "white-space",
+    "category": "css",
+    "description": "Tested with the values `nowrap` and `pre`.",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "css-widows": {
+    "title": "widows",
+    "category": "css",
+    "description": "Sets the minimum number of lines in a block container split on a new page, region or column.",
+    "last_test_date": "2024-05-03",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "partial",
+      "gmail_ios": "not_supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-width": {
+    "title": "width property",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2019-09-27",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-word-break": {
+    "title": "word-break",
+    "category": "css",
+    "description": "Prevents or allows words to be broken over multiple lines.",
+    "last_test_date": "2022-02-15",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "css-word-spacing": {
+    "title": "word-spacing",
+    "category": "css",
+    "description": "Sets the length of space between words and between tags.",
+    "last_test_date": "2024-03-13",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "css-word-wrap": {
+    "title": "word-wrap",
+    "category": "css",
+    "description": "The word-wrap CSS property (now standardized as overflow-wrap) controls whether the browser should break words to prevent them from overflowing their container. When set to break-word, it forces otherwise unbreakable strings to wrap onto the next line to avoid layout issues.",
+    "last_test_date": "2025-05-08",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "unknown",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "unknown",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "unknown"
+    }
+  },
+  "css-writing-mode": {
+    "title": "writing-mode",
+    "category": "css",
+    "description": "Sets whether lines of text are laid out horizontally or vertically.",
+    "last_test_date": "2022-05-04",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "css-z-index": {
+    "title": "z-index",
+    "category": "css",
+    "description": "",
+    "last_test_date": "2021-05-16",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-abbr": {
+    "title": "<abbr> element",
+    "category": "html",
+    "description": "Represents an abbreviation or acronym.",
+    "last_test_date": "2023-09-13",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-acronym": {
+    "title": "<acronym> element",
+    "category": "html",
+    "description": "Represents an abbreviation or acronym.",
+    "last_test_date": "2024-01-03",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-address": {
+    "title": "address",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2021-01-17",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-align": {
+    "title": "align attribute",
+    "category": "html",
+    "description": "This deprecated HTML attribute indicates how an element can be aligned, either horizontally (`left`, `center` or `right`) or vertically for elements like images (`top`, `middle`, `bottom`).",
+    "last_test_date": "2021-11-10",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "partial",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-anchor-links": {
+    "title": "Local anchors",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-08-08",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "not_supported",
+      "outlook_web": "supported",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "partial"
+    }
+  },
+  "html-aria-describedby": {
+    "title": "aria-describedby attribute",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "partial",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-aria-hidden": {
+    "title": "aria-hidden attribute",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-aria-label": {
+    "title": "aria-label attribute",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-aria-labelledby": {
+    "title": "aria-labelledby attribute",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2022-04-08",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-aria-live": {
+    "title": "aria-live attribute",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-audio": {
+    "title": "<audio> element",
+    "category": "html",
+    "description": "This is the description of the `<audio>` element.",
+    "last_test_date": "2020-04-21",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-background": {
+    "title": "background attribute",
+    "category": "html",
+    "description": "The HTML `background` attribute can only be used on `<body>`, `<table>`, `<td>` and `<th>` elements.",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-base": {
+    "title": "<base>",
+    "category": "html",
+    "description": "Specifies the base URL to use for all relative URLs in a document.",
+    "last_test_date": "2021-12-01",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "html-bdi": {
+    "title": "<bdi> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-blockquote": {
+    "title": "<blockquote> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2020-05-08",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-body": {
+    "title": "<body> element",
+    "category": "html",
+    "description": "Represents the content of an HTML document.",
+    "last_test_date": "2021-11-30",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "html-button-reset": {
+    "title": "<button type=\"reset\"> element",
+    "category": "html",
+    "description": "HTML button type reset",
+    "last_test_date": "2019-09-10",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-button-submit": {
+    "title": "<button type=\"submit\"> element",
+    "category": "html",
+    "description": "HTML button type submit",
+    "last_test_date": "2019-09-10",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-cellpadding": {
+    "title": "cellpadding attribute",
+    "category": "html",
+    "description": "Represents the padding around the individual cells of the table",
+    "last_test_date": "2024-05-01",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-cellspacing": {
+    "title": "cellspacing attribute",
+    "category": "html",
+    "description": "Represents the spacing around the individual `<th>` and `<td>` elements",
+    "last_test_date": "2024-05-01",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-code": {
+    "title": "<code> element",
+    "category": "html",
+    "description": "A short fragment of computer code.",
+    "last_test_date": "2023-04-25",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-comments": {
+    "title": "HTML comments",
+    "category": "html",
+    "description": "Adds explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet",
+    "last_test_date": "2024-05-1",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-del": {
+    "title": "<del> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-dfn": {
+    "title": "<dfn> element",
+    "category": "html",
+    "description": "It is used to identify a term that is going to be described within the content.",
+    "last_test_date": "2023-09-11",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-dialog": {
+    "title": "<dialog> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-dir": {
+    "title": "dir attribute",
+    "category": "html",
+    "description": "Indicates the directionality of the element's text.",
+    "last_test_date": "2021-11-01",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-div": {
+    "title": "<div> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2020-05-08",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-doctype": {
+    "title": "HTML5 doctype",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-07-25",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "html-form": {
+    "title": "<form> element",
+    "category": "html",
+    "description": "The ability to submit an HTML form via email, this requires support of at least one form element, at least one form method and either input submit or button submit to pass data to an end point.",
+    "last_test_date": "2019-09-10",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-h1-h6": {
+    "title": "<h1> to <h6> elements",
+    "category": "html",
+    "description": "Support for headings elements in HTML: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`.",
+    "last_test_date": "2020-05-08",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-height": {
+    "title": "height attribute",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-09-27",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-hidden": {
+    "title": "hidden attribute",
+    "category": "html",
+    "description": "The global HTML `hidden` attribute",
+    "last_test_date": "2024-01-26",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-hr": {
+    "title": "<hr> element",
+    "category": "html",
+    "description": "HTML horizontal rule",
+    "last_test_date": "2023-09-08",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-image-maps": {
+    "title": "Image maps",
+    "category": "html",
+    "description": "`<img>` with a `usemap` attribute and associated `<map>` with a `name` attribute and descendant `<area>` elements define a client-side image map.",
+    "last_test_date": "2021-09-29",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-img": {
+    "title": "<img> element",
+    "category": "html",
+    "description": "Displays an image into the document",
+    "last_test_date": "2023-12-16",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-input-checkbox": {
+    "title": "<input type=\"checkbox\"> element",
+    "category": "html",
+    "description": "HTML input type checkbox",
+    "last_test_date": "2019-09-10",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-input-hidden": {
+    "title": "<input type=\"hidden\"> element",
+    "category": "html",
+    "description": "HTML input type hidden",
+    "last_test_date": "2019-09-10",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-input-radio": {
+    "title": "<input type=\"radio\"> element",
+    "category": "html",
+    "description": "HTML input type radio",
+    "last_test_date": "2019-09-10",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-input-reset": {
+    "title": "<input type=\"reset\"> element",
+    "category": "html",
+    "description": "HTML input type reset",
+    "last_test_date": "2019-09-10",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-input-submit": {
+    "title": "<input type=\"submit\"> element",
+    "category": "html",
+    "description": "HTML input type submit",
+    "last_test_date": "2019-09-10",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-input-text": {
+    "title": "<input type=\"text\"> element",
+    "category": "html",
+    "description": "HTML input type text",
+    "last_test_date": "2019-09-10",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "supported",
+      "samsung_android": "partial"
+    }
+  },
+  "html-lang": {
+    "title": "lang attribute",
+    "category": "html",
+    "description": "The `lang` attribute lets you declare the language of the content of an HTML element.",
+    "last_test_date": "2020-10-25",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "html-link": {
+    "title": "<link> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2023-12-21",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "html-lists": {
+    "title": "<ul>, <ol> and <dl>",
+    "category": "html",
+    "description": "Support for lists in HTML: `<ul>`, `<ol>`, `<li>`, `<dl>`, `<dt>` and `<dd>` elements.",
+    "last_test_date": "2024-02-17",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "html-loading-attribute": {
+    "title": "loading attribute",
+    "category": "html",
+    "description": "The `loading` attribute on `img` indicates how the browser should load the image.",
+    "last_test_date": "2021-10-27",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "html-mailto-links": {
+    "title": "mailto: links",
+    "category": "html",
+    "description": "The `mailto:` URL scheme allows to create links that open a new outgoing email message. It supports different parameters corresponding to header fields, like `cc`, `bcc`, `subject` and `body`.",
+    "last_test_date": "2021-05-20",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-marquee": {
+    "title": "<marquee> element",
+    "category": "html",
+    "description": "This is the description of the `<marquee>` element.",
+    "last_test_date": "2020-04-21",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "html-meta-color-scheme": {
+    "title": "color-scheme meta tag",
+    "category": "html",
+    "description": "Changes the default colors of HTML elements. Useful for when you want an email to display only in a dark color scheme or only a light scheme, regardless of user settings. Equivalent to setting the color-scheme CSS property on the root element",
+    "last_test_date": "2023-09-18",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "html-meter": {
+    "title": "<meter> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-object": {
+    "title": "<object> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2021-02-20",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "html-p": {
+    "title": "<p> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2020-05-08",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-picture": {
+    "title": "<picture> element",
+    "category": "html",
+    "description": "This is the description of the `<picture>` element.",
+    "last_test_date": "2024-04-15",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-popover": {
+    "title": "popover attribute",
+    "category": "html",
+    "description": "Show and hide things",
+    "last_test_date": "2023-09-25",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "partial"
+    }
+  },
+  "html-pre": {
+    "title": "<pre> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2023-04-25",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-progress": {
+    "title": "<progress> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-required": {
+    "title": "required attribute",
+    "category": "html",
+    "description": "Required attribute on form elements",
+    "last_test_date": "2019-09-10",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-role": {
+    "title": "role attribute",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2020-02-04",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "html-rp": {
+    "title": "<rp> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-rt": {
+    "title": "<rt> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-ruby": {
+    "title": "<ruby> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-select": {
+    "title": "<select> element",
+    "category": "html",
+    "description": "HTML select menu",
+    "last_test_date": "2019-09-10",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-semantics": {
+    "title": "HTML5 semantics",
+    "category": "html",
+    "description": "This includes support for `<article>`, `<aside>`, `<details>`, `<figcaption>`, `<figure>`, `<footer>`, `<header>`, `<main>`, `<mark>`, `<nav>`, `<section>`, `<summary>`, `<time>` elements.",
+    "last_test_date": "2019-07-29",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "html-small": {
+    "title": "<small> element",
+    "category": "html",
+    "description": "The `<small>` HTML element represents side-comments and small print, like copyright and legal text, independent of its styled presentation.",
+    "last_test_date": "2021-11-13",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-span": {
+    "title": "<span> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2020-05-08",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-srcset": {
+    "title": "srcset and sizes attributes",
+    "category": "html",
+    "description": "This is the description of the `srcset` and `sizes` attributes.",
+    "last_test_date": "2019-05-29",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-strike": {
+    "title": "<strike> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-strong": {
+    "title": "<strong> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2020-05-08",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-style": {
+    "title": "<style> element",
+    "category": "html",
+    "description": "An HTML element to contain style information, in CSS, for a document or part of a document.",
+    "last_test_date": "2023-07-27",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  },
+  "html-svg": {
+    "title": "Embedded <svg> image",
+    "category": "html",
+    "description": "Support for embedded `<svg>` images. See [SVG html](/features/image-svg) for linked external SVG support.",
+    "last_test_date": "2020-02-06",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-table": {
+    "title": "<table> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-09-15",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-target": {
+    "title": "target attribute",
+    "category": "html",
+    "description": "Where to display the linked URL on `<a>` elements.",
+    "last_test_date": "2021-12-28",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "partial"
+    }
+  },
+  "html-textarea": {
+    "title": "<textarea> element",
+    "category": "html",
+    "description": "HTML input type text",
+    "last_test_date": "2019-09-10",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "supported",
+      "samsung_android": "partial"
+    }
+  },
+  "html-valign": {
+    "title": "valign attribute",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2020-12-21",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-video": {
+    "title": "<video> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-09-16",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "partial"
+    }
+  },
+  "html-wbr": {
+    "title": "<wbr> element",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-02-28",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "html-width": {
+    "title": "width attribute",
+    "category": "html",
+    "description": "",
+    "last_test_date": "2019-09-27",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "image-apng": {
+    "title": "Animated PNG image format",
+    "category": "image",
+    "description": "Support for animated PNG image format",
+    "last_test_date": "2020-02-06",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "image-avif": {
+    "title": "AVIF image format",
+    "category": "image",
+    "description": "A modern image format based on the AV1 video format.",
+    "last_test_date": "2023-01-14",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "partial",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "partial",
+      "apple_mail_ios": "partial",
+      "yahoo_web": "partial",
+      "samsung_android": "not_supported"
+    }
+  },
+  "image-base64": {
+    "title": "Base 64 image format",
+    "category": "image",
+    "description": "Support for Base 64 image format",
+    "last_test_date": "2020-02-06",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "image-bmp": {
+    "title": "BMP image format",
+    "category": "image",
+    "description": "Support for BMP image format",
+    "last_test_date": "2020-02-06",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "partial",
+      "gmail_ios": "supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "image-gif": {
+    "title": "GIF image format",
+    "category": "image",
+    "description": "Support for GIF image format",
+    "last_test_date": "2020-02-06",
+    "clients": {
+      "outlook_windows": "partial",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "image-hdr": {
+    "title": "HDR image format",
+    "category": "image",
+    "description": "Support for HDR image format",
+    "last_test_date": "2020-02-06",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "image-heif": {
+    "title": "HEIF image format",
+    "category": "image",
+    "description": "Support for HEIF image format",
+    "last_test_date": "2020-02-06",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "partial",
+      "samsung_android": "not_supported"
+    }
+  },
+  "image-ico": {
+    "title": "ICO image format",
+    "category": "image",
+    "description": "Support for ICO image format",
+    "last_test_date": "2020-02-06",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "image-jpg": {
+    "title": "JPG image format",
+    "category": "image",
+    "description": "Support for JPG image format",
+    "last_test_date": "2020-02-06",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "image-mp4": {
+    "title": "Video as Image Assets",
+    "category": "image",
+    "description": "WebKit in Safari supports loading H.264 encoded MP4 video with an HTML tag or as a CSS background.",
+    "last_test_date": "2021-05-13",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "partial",
+      "gmail_web": "not_supported",
+      "gmail_ios": "not_supported",
+      "gmail_android": "not_supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "partial",
+      "samsung_android": "not_supported"
+    }
+  },
+  "image-png": {
+    "title": "PNG image format",
+    "category": "image",
+    "description": "Support for PNG image format",
+    "last_test_date": "2020-02-06",
+    "clients": {
+      "outlook_windows": "supported",
+      "outlook_mac": "supported",
+      "outlook_web": "supported",
+      "gmail_web": "supported",
+      "gmail_ios": "supported",
+      "gmail_android": "supported",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "image-svg": {
+    "title": "SVG image format",
+    "category": "image",
+    "description": "Support for SVG image format, as a linked file. See [SVG html](/features/html-svg) for embedded SVG support.",
+    "last_test_date": "2023-01-15",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "supported",
+      "gmail_web": "not_supported",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "supported",
+      "samsung_android": "supported"
+    }
+  },
+  "image-tiff": {
+    "title": "TIFF image format",
+    "category": "image",
+    "description": "Support for TIFF image format",
+    "last_test_date": "2020-02-06",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "supported",
+      "outlook_web": "not_supported",
+      "gmail_web": "partial",
+      "gmail_ios": "supported",
+      "gmail_android": "partial",
+      "apple_mail_macos": "supported",
+      "apple_mail_ios": "supported",
+      "yahoo_web": "not_supported",
+      "samsung_android": "not_supported"
+    }
+  },
+  "image-webp": {
+    "title": "webP image format",
+    "category": "image",
+    "description": "Support for webP image format",
+    "last_test_date": "2021-02-06",
+    "clients": {
+      "outlook_windows": "not_supported",
+      "outlook_mac": "not_supported",
+      "outlook_web": "partial",
+      "gmail_web": "partial",
+      "gmail_ios": "partial",
+      "gmail_android": "partial",
+      "apple_mail_macos": "not_supported",
+      "apple_mail_ios": "not_supported",
+      "yahoo_web": "partial",
+      "samsung_android": "supported"
+    }
+  }
+}

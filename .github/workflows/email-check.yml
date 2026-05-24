@@ -1,0 +1,37 @@
+name: Email Render Check
+
+on:
+  pull_request:
+    paths:
+      - '**/*.html'
+      - '**/*.mjml'
+      - '**/*.tsx'
+      - '**/*.jsx'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  email-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install project dependencies
+        run: |
+          if [ -f package.json ]; then
+            npm install
+          fi
+      
+      - name: Run Email Render Check
+        uses: ./ # Uses the action from this repo
+        with:
+          all_clients: 'true'
+          show_fixes: 'true'
+          min_score: '70'
